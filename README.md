@@ -9,5 +9,19 @@ In this project, I ingested raw NYC Taxi data from a Lakehouse, processed it thr
 - Semantic model for analytics
 - Interactive dashboards with Power BI
 
-  ## Data Ingestion – Staging Layer
-  
+## Data Ingestion – Staging Layer
+  ## pipeline Pipeline for ingesting nyc taxi data from lakehouse to project warehouse.jpg
+
+## Key features:
+
+Script activity to determine latest processed date
+
+Pipeline variables to manage incremental loads
+
+Copy activity to load new data into staging tables
+
+Stored procedures to:
+
+Remove outlier dates
+
+Load and maintain staging metadata
