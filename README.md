@@ -12,7 +12,7 @@ In this project, I ingested raw NYC Taxi data from a Lakehouse, processed it thr
 ## Data Ingestion – Staging Layer
 ## 🔄 Data Ingestion – Staging Layer
 
-![Staging Pipeline](images/pipeline_staging.png)
+![Staging Pipeline](Pipeline for ingesting nyc taxi data from lakehouse to project warehouse.jpg)
 
 
 ## Key features:
