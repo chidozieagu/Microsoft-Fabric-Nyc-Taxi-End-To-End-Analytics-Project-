@@ -10,7 +10,10 @@ In this project, I ingested raw NYC Taxi data from a Lakehouse, processed it thr
 - Interactive dashboards with Power BI
 
 ## Data Ingestion – Staging Layer
-  ## pipeline /Pipeline for perform transformation on staging data and ingesting it into presentation layer.jpg
+## 🔄 Data Ingestion – Staging Layer
+
+![Staging Pipeline](images/pipeline_staging.png)
+
 
 ## Key features:
 
