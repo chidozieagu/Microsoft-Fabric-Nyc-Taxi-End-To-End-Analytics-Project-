@@ -11,8 +11,10 @@ In this project, I ingested raw NYC Taxi data from a Lakehouse, processed it thr
 - Designing the Presentation Layer
 - Data Transformation Using Dataflow Gen2
 - Building Presentation Pipeline
-- Semantic model for analytics
-- Interactive dashboards with Power BI
+- Metadata Management and Governance
+- Semantic model creation for analytics
+- Power BI Report Development
+- Validation and Testing
 
 ## Workspace and Environment Setup
 
@@ -100,4 +102,68 @@ Triggers the Dataflow Gen2 execution
 Runs stored procedures to load or merge presentation tables into the presentation schema
 
 Ensures dependencies are executed in the correct order.
+
+## Metadata Management and Governance
+
+Throughout the pipelines, I created metadata tables  to track:
+
+Load dates
+Processing status
+Record counts
+Execution history
+
+This metadata-driven approach supported:
+
+Monitoring and troubleshooting
+Incremental processing
+Auditability
+Future automation and scaling
+This step demonstrates my understanding of data governance and operational excellence, which is critical in enterprise analytics environments.
+
+## Semantic Model Creation for analytics
+
+Once presentation tables were ready, I created a semantic model from the date in the presentation layer.
+
+Key entities include:
+
+Taxi trips fact table
+
+Vendor dimension
+
+Payment method dimension
+
+Pickup and drop-off attributes
+
+## Power BI Report Development
+
+Using the semantic model, I created an interactive Power BI report
+
+Key metrics delivered:
+Total revenue
+Number of trips
+Passenger count
+Revenue by payment method
+Borough-level distance and trip analysis
+
+Report design principles:
+Business-friendly KPIs
+Interactive slicers
+Time-series trend analysis
+
+## Validation and Testing
+
+I performed validation at multiple stages:
+
+I wrote SQL queries to confirm record counts
+
+I Compared staging vs presentation data
+
+I visulally inspected the Power BI metrics
+
+I verified Pipeline run history 
+
+This ensured data accuracy, consistency, and trustworthiness.
+
+
+
 
